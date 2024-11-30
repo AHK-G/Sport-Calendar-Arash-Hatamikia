@@ -52,7 +52,7 @@ Make sure you have the following installed:
    cd Sport-Calendar-Arash-Hatamikia
    ```
    ```bash
-   npm Install
+   npm install
    ```
    ```bash
    npm start
