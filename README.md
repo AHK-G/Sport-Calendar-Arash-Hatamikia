@@ -48,6 +48,15 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/AHK-G/Sport-Calendar-Arash-Hatamikia.git
    ```
+   ```bash
+   cd Sport-Calendar-Arash-Hatamikia
+   ```
+   ```bash
+   npm Install
+   ```
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts
 
@@ -75,3 +84,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+```
+
+```
