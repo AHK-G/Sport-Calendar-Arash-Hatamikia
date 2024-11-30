@@ -1,0 +1,211 @@
+.calendar {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-left: 17%; /* R */
+}
+
+.react-calendar__navigation {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 80%; /* R */
+}
+
+.react-calendar__navigation button {
+  border: none;
+  background: #f8f8f8;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #e0e0e0;
+}
+
+.react-calendar__month-view__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  background: #f8f8f8;
+  font-weight: bold;
+  text-align: center;
+}
+
+.react-calendar__month-view__weekdays__weekday:last-child {
+  border-right: none;
+}
+
+.react-calendar__month-view__days {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 80%;
+}
+
+.react-calendar__tile {
+  border: 1px solid #ccc !important;
+  background: none;
+  padding: 10px;
+  text-align: right;
+  vertical-align: top;
+  padding-bottom: 7rem;
+  transition: background-color 0.2s ease;
+  color: black;
+  height: 10vw;
+  position: relative;
+  height: 8rem;
+  text-align: start;
+}
+
+.react-calendar__tile:active {
+  background-color: none;
+}
+
+.react-calendar__tile--now {
+  background: #bdeaff;
+  border: 2px solid #0078d7;
+  color: black;
+}
+
+.react-calendar__month-view__weekNumbers {
+  border: 1px solid #ccc;
+  border-right: none;
+}
+
+.event-link {
+  font-size: 1rem;
+  width: 100%;
+  text-align: start;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer !important;
+  pointer-events: fill !important;
+  border: 2px solid #31628c;
+  border-radius: 5px;
+  padding: 1px;
+  background-color: #31628c;
+  color: #f8f8f8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-link:hover {
+  color: #bbfa5d;
+}
+
+.day-number {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 0.9rem;
+
+  color: #333;
+}
+
+.tile-content {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 0.9em;
+  width: 90%;
+  margin-top: 5px;
+  text-align: start;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.tile-content .event-link {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.react-calendar__month-view__days__day > abbr {
+  display: none;
+}
+
+.react-calendar .react-calendar__month-view__days__day--neighboringMonth {
+  background-color: #f0f0f0 !important;
+  color: #d3d3d3 !important;
+}
+
+.react-calendar .react-calendar__month-view__days__day--neighboringMonth:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.react-calendar__year-view__months {
+  width: 80%; /* R */
+}
+.react-calendar__year-view__months .react-calendar__tile {
+  text-align: center; /* R */
+}
+
+.react-calendar__decade-view__years {
+  width: 80%; /* R */
+}
+.react-calendar__decade-view__years .react-calendar__tile {
+  text-align: center; /* R */
+}
+
+.react-calendar__century-view__decades {
+  width: 80%; /* R */
+}
+
+.react-calendar__century-view__decades .react-calendar__tile {
+  text-align: center; /* R */
+}
+
+@media (max-width: 1128px) {
+}
+
+@media (max-width: 868px) {
+  .calendar {
+    padding-left: 0%; /* R */
+  }
+  .react-calendar__navigation {
+    width: 100%; /* R */
+  }
+  .react-calendar__month-view__weekdays {
+    width: 100%; /* R */
+  }
+  .react-calendar__month-view__days {
+    width: 100%; /* R */
+  }
+  .react-calendar__year-view__months {
+    width: 100% !important; /* R */
+  }
+
+  .react-calendar__decade-view__years {
+    width: 100% !important; /* R */
+  }
+
+  .react-calendar__century-view__decades {
+    width: 100% !important; /* R */
+  }
+}
+
+@media (max-width: 768px) {
+  .event-link {
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 480px) {
+    .event-link {
+      font-size: 0.65rem;
+    }
+    .react-calendar__month-view__days__day {
+      height: 7vw; /* R */
+    }
+  }
+}

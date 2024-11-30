@@ -1,0 +1,75 @@
+.add-event-form-container {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f2f2f2, #e0e0e0);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.add-event-form-container h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.add-event-form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-event-form-container form div {
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.add-event-form-container form div input,
+.add-event-form-container form div button,
+.add-event-form-container form div label {
+  width: 100%;
+  text-align: start;
+}
+
+.add-event-form-container label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.add-event-form-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.add-event-form-container input:focus {
+  border-color: #fdd835;
+  box-shadow: 0 0 5px rgba(253, 216, 53, 0.5);
+}
+
+.add-event-form-container button {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-event-form-container button:hover {
+  background-color: #fbc02d;
+}
