@@ -45,17 +45,27 @@ Make sure you have the following installed:
 ### Steps to Run:
 
 1. Clone this repository to your local machine and how to install:
+
    ```bash
    git clone https://github.com/AHK-G/Sport-Calendar-Arash-Hatamikia.git
    ```
+
    ```bash
    cd Sport-Calendar-Arash-Hatamikia
    ```
+
    ```bash
    npm install
    ```
+
    ```bash
    npm start
+   ```
+
+   - If you encounter an error with missing modules or dependencies, try running:
+
+   ```bash
+   npm install --legacy-peer-deps
    ```
 
 ## Available Scripts
