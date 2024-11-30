@@ -44,7 +44,7 @@ Make sure you have the following installed:
 
 ### Steps to Run:
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine and how to install:
    ```bash
    git clone https://github.com/AHK-G/Sport-Calendar-Arash-Hatamikia.git
    ```
